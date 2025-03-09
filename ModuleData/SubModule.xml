@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+    <Id>MyAttackSpeedMod</Id>
+    <Name>My Attack Speed Mod</Name>
+    <Version>1.0.0</Version>
+    <Description>This mod adds sliders to adjust attack speed and enable burst fire mode.</Description>
+    <SingleplayerModule>true</SingleplayerModule>
+    <MultiplayerModule>false</MultiplayerModule>
+    <DependedModules>
+        <DependsOn id="SandBoxCore" />
+        <DependsOn id="Native" />
+    </DependedModules>
+    <SubModules>
+        <SubModule>
+            <Name>MyAttackSpeedMod</Name>
+            <DLLName>bin/Win64_Shipping_Client/MyAttackSpeedMod.dll</DLLName>
+            <StartScene>MainMenu</StartScene>
+            <RequiredAssemblies />
+            <InitializationMethod>Initialize</InitializationMethod>
+        </SubModule>
+    </SubModules>
+    <Xmls>
+        <Xml id="gui" folder="GUI/" />
+    </Xmls>
+</Module>
