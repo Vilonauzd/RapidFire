@@ -2,7 +2,7 @@
 
 ### README
 
-# RapidFire Mod for Mount & Blade 2: Bannerlord | By Vilo
+# RapidFire Mod for Mount & Blade 2: Bannerlord | By jm@cloudware.host
 ![image](https://github.com/user-attachments/assets/442154d6-331d-4a76-99e8-19973f493d35)
 
 
