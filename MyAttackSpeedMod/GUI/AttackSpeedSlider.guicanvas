@@ -1,0 +1,6 @@
+<Canvas>
+    <Grid RowCount="2" ColumnCount="1">
+        <Slider Name="AttackSpeedSlider" MinimumValue="0.5" MaximumValue="2.0" Value="{Binding Path=AttackSpeedSlider.Value}" />
+        <ToggleSwitch Name="BurstFireToggle" IsToggled="{Binding Path=BurstFireToggle.IsToggled}" Text="Burst Fire Mode" />
+    </Grid>
+</Canvas>
